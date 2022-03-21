@@ -20,25 +20,25 @@ const Concepts = () => {
                 <Col>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={image1} alt="img" className="img-fluid rounded-5" style={{borderRadius: 30}}/>
-                        <figcaption>Soul Music</figcaption>
+                        <figcaption className="fw-bold mt-2 text-dark">Soul Music</figcaption>
                     </figure>
                 </Col>
                 <Col>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={image2} alt="img" className="img-fluid" style={{borderRadius: 30}}/>
-                        <figcaption>Live Concerts</figcaption>
+                        <figcaption className="fw-bold mt-2 text-dark">Live Concerts</figcaption>
                     </figure>
                 </Col>
                 <Col>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={image3} alt="img" className="img-fluid" style={{borderRadius: 30}}/>
-                        <figcaption>Dj Sets</figcaption>
+                        <figcaption className="fw-bold mt-2 text-dark">Dj Sets</figcaption>
                     </figure>
                 </Col>
                 <Col>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={image4} alt="img" className="img-fluid" style={{borderRadius: 30}}/>
-                        <figcaption>Live Streams</figcaption>
+                        <figcaption className="fw-bold mt-2 text-dark">Live Streams</figcaption>
                     </figure>
                 </Col>
             </Row>

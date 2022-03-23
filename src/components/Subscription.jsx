@@ -3,10 +3,10 @@ import { Container, Row, Col, Button } from 'react-bootstrap'
 import mark from "../assets/mark.webp"
 const Subscription = () => {
   return (
-    <div className="vh-100 bg-dark">
+    <div className="h-100 bg-dark p-5">
         <Container className="h-100">
             <Row className="h-100 justify-content-center align-items-center">
-                <Col>
+                <Col sm={12} md={6}>
                     <header>
                         <h1 className="display-2 text-white ">Subscription</h1>
                         <h1 className="display-2 text-white ">from $15/month</h1>
@@ -15,7 +15,7 @@ const Subscription = () => {
                     <p className="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat enim sint veritatis omnis labore temporibus eaque quis maiores veniam, non, dignissimos impedit nobis necessitatibus nostrum? Eius obcaecati mollitia laboriosam dolorum?</p>
                     <Button size="lg" variant="danger" className="rounded-pill mt-4">TRY IT NOW</Button> 
                 </Col>
-                <Col className="bg-info d-flex justify-content-center" style={{width: "100%", height: "65vh", borderRadius: 30}}>
+                <Col className="bg-info d-flex justify-content-center my-3 my-sm-3 my-md-0" style={{height: "65vh", borderRadius: 30}} sm={12} md={6}>
                     <ul className="my-5 d-flex flex-column justify-content-between list-unstyled">
                         <li className="d-flex align-items-center">
                             <img src={mark} alt="mark" className="img-fluid me-2"/>

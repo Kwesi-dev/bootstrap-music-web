@@ -1,0 +1,15 @@
+.nav-link:hover{
+    color: #dc3545!important;
+}
+.dropdown-toggle::after{
+    display: none!important;
+}
+.dropdown:hover .dropdown-menu{
+    display: block!important;
+}
+.dropdown .dropdown-toggle{
+    color: #ffff!important;
+}
+.dropdown-toggle:hover{
+    color: #dc3545!important;
+}

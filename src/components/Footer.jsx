@@ -7,10 +7,10 @@ import pinterest from "../assets/pinterest.svg"
 import youtube from "../assets/youtube.svg"
 const Footer = () => {
   return (
-    <div className="bg-dark" style={{height: "50vh"}}>
-        <Container fluid="lg" className="h-100">
-            <Row className="h-100 justify-content-center align-items-center">
-                <Col xl="6">
+    <div className="h-100 w-100 bg-dark py-3">
+        <Container fluid="lg" className="h-100 w-100 d-flex align-items-center justify-content-center">
+            <Row className="h-100 w-100 justify-content-center align-items-center">
+                <Col sm={12} md={6} lassName="mx-auto">
                     <header>
                         <h3 className="h3 text-white"><strong className="text-danger">SOL</strong>MUSIC</h3>
                     </header>
@@ -23,31 +23,31 @@ const Footer = () => {
                         <img src={twitter} alt="twitter icon" />
                     </section>
                 </Col>
-                <Col xl="2">
+                <Col sm={4} md={2}>
                     <h3 className="h5 text-white mt-4">ABOUT US</h3>
-                    <ul style={{listStyleType: "none"}}>
-                        <li className="text-muted">Our Story</li>
-                        <li className="text-muted">Sol Music Blog</li>
-                        <li className="text-muted">History</li>
-                    </ul>
+                    <section className="d-flex flex-column">
+                        <span className="text-muted">Our Story</span>
+                        <span className="text-muted">Sol Music Blog</span>
+                        <span className="text-muted">History</span>
+                    </section>
                 </Col>
-                <Col xl="2">
+                <Col sm={4} md={2}>
                     <h3 className="h5 text-white mt-5">PRODUCTS</h3>
-                    <ul style={{listStyleType: "none"}}>
-                        <li className="text-muted">Music</li>
-                        <li className="text-muted">Subscription</li>
-                        <li className="text-muted">Custom Music</li>
-                        <li className="text-muted">Footage</li>
-                    </ul>
+                    <section className="d-flex flex-column">
+                        <span className="text-muted">Music</span>
+                        <span className="text-muted">Subscription</span>
+                        <span className="text-muted">Custom Music</span>
+                        <span className="text-muted">Footage</span>
+                    </section>
                 </Col>
-                <Col xl="2">
+                <Col sm={4} md={2}>
                     <h3 className=" h5 text-white mt-5">PLAYLISTS</h3>
-                    <ul className="me-5" style={{listStyleType: "none"}}>
-                        <li className="text-muted">Newsletter</li>
-                        <li className="text-muted">Careers</li>
-                        <li className="text-muted">Press</li>
-                        <li className="text-muted">Contact</li>
-                    </ul>
+                    <section className="d-flex flex-column">
+                        <span className="text-muted">Newsletter</span>
+                        <span className="text-muted">Careers</span>
+                        <span className="text-muted">Press</span>
+                        <span className="text-muted">Contact</span>
+                    </section>
                 </Col>
             </Row>
         </Container>

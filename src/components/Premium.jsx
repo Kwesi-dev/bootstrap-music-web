@@ -6,18 +6,18 @@ import img3 from "../assets/img3.webp"
 import img4 from "../assets/img4.webp"
 const Premium = () => {
   return (
-    <div className="vh-100">
+    <div className="h-100 py-4">
         <Container fluid="lg" className="h-100 d-flex flex-column align-items-center justify-content-center">
             <Row className="mb-5">
-                <Col>
+                <Col sm={12} md={6}>
                     <header className="display-4 fw-bolder">Why go Premium</header>
                 </Col>
-                <Col>
+                <Col sm={12} md={6}>
                     <p className="text-muted fs-7">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab minima voluptate culpa, fugit maxime veritatis quaerat officia, quidem ipsum, voluptatibus sint consectetur harum eveniet quam? Repellat iusto sunt reiciendis.Saepe ab minima voluptate culpa, fugit maxime veritatis quaerat officia, quidem ipsum, voluptatibus sint consectetur harum eveniet quam? Repellat </p>
                 </Col>
             </Row>
             <Row className="mt-5 w-100 d-flex justify-content-between">
-                <Col>
+                <Col sm={6} md={3}>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={img1} alt="img" className="img-fluid rounded-circle"/>
                         <figcaption className="d-flex flex-column align-items-center">
@@ -26,7 +26,7 @@ const Premium = () => {
                         </figcaption>
                     </figure>
                 </Col>
-                <Col>
+                <Col sm={6} md={3}>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={img2} alt="img" className="img-fluid rounded-circle"/>
                         <figcaption className="d-flex flex-column align-items-center">
@@ -35,7 +35,7 @@ const Premium = () => {
                         </figcaption>
                     </figure>
                 </Col>
-                <Col>
+                <Col sm={6} md={3}>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={img3} alt="img" className="img-fluid rounded-circle"/>
                         <figcaption className="d-flex flex-column align-items-center">
@@ -44,7 +44,7 @@ const Premium = () => {
                         </figcaption>
                     </figure>
                 </Col>
-                <Col>
+                <Col sm={6} md={3}>
                     <figure className="d-flex flex-column align-items-center">
                         <img src={img4} alt="img" className="img-fluid rounded-circle"/>
                         <figcaption className="d-flex flex-column align-items-center">
